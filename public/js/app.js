@@ -1862,7 +1862,7 @@ __webpack_require__.r(__webpack_exports__);
         },
         yAxis: {
           title: {
-            text: "Users (%)"
+            text: "Total Onboarded Users (%)"
           },
           labels: {
             format: "{value}%"

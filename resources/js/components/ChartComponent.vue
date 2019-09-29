@@ -30,7 +30,7 @@
                     },
                     yAxis: {
                         title: {
-                            text: "Users (%)"
+                            text: "Total Onboarded Users (%)"
                         },
                         labels: {
                             format: "{value}%"
