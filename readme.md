@@ -20,8 +20,9 @@ This project is proving a solution to Temper to get an idea of how users are per
 2. Rename .env.example as **.env**
 3. Run `composer update`
 4. Run `php artisan key:generate`
-5. Run `npm run dev`
-6. Run `php artisan serve`
+5. Run `npm install`
+6. Run `npm run dev`
+7. Run `php artisan serve`
 
 ## Screenshot
 
