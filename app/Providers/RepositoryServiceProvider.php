@@ -15,15 +15,15 @@ class RepositoryServiceProvider extends ServiceProvider
     {
         $this->app->bind(
             'App\Repositories\DataSourceRepositoryInterface',
-            'App\Repositories\CsvDataManager'
+            'App\Repositories\CsvDataSourceRepository'
         );
         $this->app->bind(
             'App\Repositories\RetentionRepositoryInterface',
-            'App\Repositories\RetentionDataManager'
+            'App\Repositories\ChartDataRepository'
         );
         $this->app->bind(
             'App\Repositories\DataFormatterRepositoryInterface',
-            'App\Repositories\JsonDataFormatter'
+            'App\Repositories\JsonDataFormatRepository'
         );
     }
 

@@ -50021,8 +50021,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/anusha/Music/temper/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/anusha/Music/temper/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /mnt/b4e33210-d0d5-464b-bd55-b75dd455ba8d/laravel/projects/temper/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /mnt/b4e33210-d0d5-464b-bd55-b75dd455ba8d/laravel/projects/temper/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

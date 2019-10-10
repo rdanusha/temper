@@ -4,7 +4,13 @@
 namespace App\Repositories;
 
 
-class JsonDataFormatter implements DataFormatterRepositoryInterface
+use App\Repositories\Interfaces\DataFormatterRepositoryInterface;
+
+/**
+ * Class JsonDataFormatRepository
+ * @package App\Repositories
+ */
+class JsonDataFormatRepository implements DataFormatterRepositoryInterface
 {
     /**
      * Convert data array to json format

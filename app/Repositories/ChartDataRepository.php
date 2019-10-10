@@ -4,9 +4,14 @@
 namespace App\Repositories;
 
 
+use App\Repositories\Interfaces\ChartRepositoryInterface;
 use DateTime;
 
-class RetentionDataManager implements RetentionRepositoryInterface
+/**
+ * Class ChartDataRepository
+ * @package App\Repositories
+ */
+class ChartDataRepository implements ChartRepositoryInterface
 {
 
     /**
@@ -17,7 +22,7 @@ class RetentionDataManager implements RetentionRepositoryInterface
     public function get_chart_data_array($data_array)
     {
         $weekly_retention_array = $this->weekly_retention_array($data_array);
-        $data = $this->process_retention_data($weekly_retention_array);
+        $data = $this->process_chart_data($weekly_retention_array);
         return $data;
     }
 
@@ -56,7 +61,7 @@ class RetentionDataManager implements RetentionRepositoryInterface
      * @param $weekly_retention_array
      * @return array
      */
-    public function process_retention_data($weekly_retention_array)
+    public function process_chart_data($weekly_retention_array)
     {
         $retention_data_array = [];
         try {
